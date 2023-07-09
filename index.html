@@ -21,28 +21,28 @@
         <section class="characters">
             <h1 class="title"> Select a character </h1>
             <ul class="character-list">
-                <li class="character" id="cyclops">
-                    <img src="./src/img/card-ciclope.jpg" alt="Cyclops card image">
+                <li class="character selected" id="cyclops" data-name="Cyclops" data-description="Cyclops emits powerful beams of energy from his eyes, and can only control the beams with the aid of special eyewear which he must wear at all times.">
+                    <img src="./src/img/card-cyclops.jpg" alt="Cyclops card image">
                 </li>
-                <li class="character" id="jean-grey">
+                <li class="character" id="jean-grey" data-name="Jean Grey" data-description="Jean's mutant powers of telepathy and telekinesis first manifest when her best friend is hit by a car and killed. Jean mentally links with her friend and nearly dies as well.">
                     <img src="./src/img/card-jean-grey.jpg" alt="Jean Grey card image">
                 </li>
-                <li class="character" id="shadowcat">
-                    <img src="./src/img/card-lince-negra.jpg" alt="Shadowcat card image">
+                <li class="character" id="shadowcat" data-name="Shadowcat" data-description="Kitty possesses the ability to pass through solid matter and objects by passing her atoms through the spaces between the atoms of the object through which she is moving.">
+                    <img src="./src/img/card-shadowcat.jpg" alt="Shadowcat card image">
                 </li>
-                <li class="character" id="storm">
-                    <img src="./src/img/card-tempestade.jpg" alt="Storm card image">
+                <li class="character" id="storm" data-name="Storm" data-description="Storm has the ability to control the elemental forces that preside over weather. Immune to extreme temperatures, both hot and cold, she can create winds strong enough to support her weight, giving her the ability to fly.">
+                    <img src="./src/img/card-storm.jpg" alt="Storm card image">
                 </li>
-                <li class="character" id="rogue">
-                    <img src="./src/img/card-vampira.jpg" alt="Rogue card image">
+                <li class="character" id="rogue" data-name="Rogue" data-description="Rogue's mutant ability requires skin-to-skin contact to absorb memories, powers, personality traits, physical talents, and strength.">
+                    <img src="./src/img/card-rogue.jpg" alt="Rogue card image">
                 </li>
-                <li class="character" id="wolverine">
+                <li class="character" id="wolverine" data-name="Wolverine" data-description="Wolverine's primary mutant power is an accelerated healing process, typically referred to as his mutant healing factor, that regenerates damaged or destroyed tissues of his body far beyond that of normal humans.">
                     <img src="./src/img/card-wolverine.jpg" alt="Wolverine card image">
                 </li>
-                <li class="character" id="nightcrawler">
-                    <img src="./src/img/card-noturno.jpg" alt="Nightcrawler card image">
+                <li class="character" id="nightcrawler" data-name="Nightcrawler" data-description="Nightcrawler is a mutant whose primary mutant power is the ability to teleport himself, his clothing, and a certain amount of additional mass.">
+                    <img src="./src/img/card-nightcrawler.jpg" alt="Nightcrawler card image">
                 </li>
-                <li class="character" id="magneto">
+                <li class="character" id="magneto" data-name="Magneto" data-description="Magneto has comprehensive control over all forms of magnetism and utilizes that control to manipulate any metal and achieve a variety of effects.">
                     <img src="./src/img/card-magneto.jpg" alt="Magneto card image">
                 </li>
             </ul>
@@ -51,10 +51,12 @@
         <section class="selected-character">
             <img class="character-png" src="./src/img/card-ciclope.png" alt="Selected Character">
             <div class="character-info">
-                <h2 class="character-name" id="character-name">Cyclops</h2>
-                <p class="character-description" id="character-description">Cyclops emits powerful beams of energy from his eyes, and can only control the beams with the aid of special eyewear which he must wear at all times.</p>
+                <h2 class="character-name" id="character-name"></h2>
+                <p class="character-description" id="character-description"></p>
             </div>
         </section>
     </main>
+
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
